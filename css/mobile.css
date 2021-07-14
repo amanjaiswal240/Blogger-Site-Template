@@ -61,3 +61,44 @@
     }
 
 }
+
+/* Viewport less than or eqal to 420px */
+
+@media only screen and (max-width: 420px){
+    nav .input-element{
+        width: 55%;
+        margin-right: .5rem;
+    }
+
+    .nav .form-btn{
+        width: 4rem;
+    }
+
+    main .blog .blog-post {
+        padding-top: 1.5rem;
+        margin-top: 0;
+    }
+
+    main .blog {
+        height: 70vh;
+    } 
+
+}
+
+/* Viewport less than or eqal to 365px */
+
+@media only screen and (max-width: 365px){
+    main .blog {
+        height: 80vh;
+    } 
+}
+
+/* Viewport less than or eqal to 330px */
+
+@media only screen and (max-width: 330px){
+    nav .input-element{
+        margin-right: .4rem;
+        padding: .3rem .2rem;
+    }   
+
+}
