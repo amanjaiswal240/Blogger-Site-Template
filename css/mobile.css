@@ -81,7 +81,19 @@
 
     main .blog {
         height: 70vh;
-    } 
+    }
+    
+    .site-content .sidebar .popular-post h2 {
+        padding-top: 4rem;
+    }
+
+    .site-content .sidebar .newsletter {
+        padding-top: 2rem;
+    }
+
+    .site-content .sidebar .popular-tags {
+        padding: 2rem 0;
+    }
 
 }
 
